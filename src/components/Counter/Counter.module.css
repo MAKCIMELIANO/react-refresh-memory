@@ -1,0 +1,10 @@
+.counter {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Добавим промежуток между кнопками */
+}

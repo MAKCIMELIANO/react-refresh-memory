@@ -1,12 +1,9 @@
-import Product from '../Product/Product';
+import Counter from '../Counter/Counter';
 
 function App() {
   return (
     <>
-      <Product title="Cookies" price={999} />
-      <Product title="Cake" price={666} />
-      <Product title="Juice" price={34} />
-      <Product title="Ice Cream" price={123} />
+      <Counter />
     </>
   );
 }
