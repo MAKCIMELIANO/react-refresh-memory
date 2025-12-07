@@ -12,13 +12,16 @@ const Counter = () => {
       <h1>{count}</h1>
       <div className={styles.buttonContainer}>
         <Button onClick={increment} className="increment">
-          <FaPlus />
+          <FaPlus className={styles.icon} />
+          Plus
         </Button>
         <Button onClick={decrement} className="decrement">
-          <FaMinus />
+          <FaMinus className={styles.icon} />
+          Minus
         </Button>
         <Button onClick={reset} className="reset">
-          <FaRedo />
+          <FaRedo className={styles.icon} />
+          Reset
         </Button>
       </div>
     </div>
